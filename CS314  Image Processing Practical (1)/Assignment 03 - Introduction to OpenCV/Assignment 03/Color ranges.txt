@@ -1,0 +1,39 @@
+Blue
+
+## Gen lower mask (0-5) and upper mask (175-180) of RED
+mask1 = cv2.inRange(img_hsv, (80,50,20), (100,255,255))
+mask2 = cv2.inRange(img_hsv, (100,50,20), (130,255,255))
+
+Red
+
+mask1 = cv2.inRange(img_hsv, (0,50,20), (5,255,255))
+mask2 = cv2.inRange(img_hsv, (175,50,20), (180,255,255))
+
+Green
+
+mask1 = cv2.inRange(img_hsv, (45,50,20), (50,255,255))
+mask2 = cv2.inRange(img_hsv, (50,50,20), (70,255,255))
+
+Yellow
+
+mask1 = cv2.inRange(img_hsv, (20,50,20), (30,255,255))
+mask2 = cv2.inRange(img_hsv, (30,50,20), (45,255,255))
+
+Orange
+
+mask1 = cv2.inRange(img_hsv, (12,50,20), (15,255,255))
+mask2 = cv2.inRange(img_hsv, (15,50,20), (20,255,255))
+
+
+Purple
+
+mask1 = cv2.inRange(img_hsv, (130,50,20), (150,255,255))
+mask2 = cv2.inRange(img_hsv, (150,50,20), (165,255,255))
+
+
+Gray
+
+mask1 = cv2.inRange(img_hsv, (0,0,50), (0,0,240))
+mask2 = cv2.inRange(img_hsv, (0,0,50), (0,0,240))
+
+
